@@ -1,0 +1,788 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-Light.woff2") format("woff2"),
+    url("../Fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-BlackItalic.woff2") format("woff2"),
+    url("../Fonts/Roboto-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../Fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-LightItalic.woff2") format("woff2"),
+    url("../Fonts/Roboto-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../Fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-Italic.woff2") format("woff2"),
+    url("../Fonts/Roboto-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-BoldItalic.woff2") format("woff2"),
+    url("../Fonts/Roboto-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-Black.woff2") format("woff2"),
+    url("../Fonts/Roboto-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-MediumItalic.woff2") format("woff2"),
+    url("../Fonts/Roboto-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../Fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-ThinItalic.woff2") format("woff2"),
+    url("../Fonts/Roboto-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-Thin.woff2") format("woff2"),
+    url("../Fonts/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Roboto";
+}
+p {
+  font-size: 14px;
+  font-weight: normal;
+  color: #3b3b3b;
+}
+h1 {
+  font-size: 36px;
+  color: #020202;
+  font-weight: bold;
+}
+h2 {
+  font-size: 30px;
+  color: #020202;
+  font-weight: bold;
+}
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #020202;
+  line-height: 35px;
+}
+h4 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #020202;
+}
+h5 {
+  font-size: 10px;
+  font-weight: bold;
+  color: #020202;
+}
+h6 {
+  font-size: 9px;
+  font-weight: bold;
+  color: #a8a8a8;
+  text-align: center;
+}
+/* Header Start */
+header .navbar {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+header .navbar .navbar-brand {
+  font-family: "Roboto";
+  font-size: 26px;
+  font-weight: bold;
+  color: #020202;
+  cursor: pointer;
+}
+.navbar .navbar-collapse .navbar-nav {
+  margin-left: auto;
+}
+.navbar .navbar-collapse .navbar-nav li:last-child a {
+  color: #4fc4cb;
+  padding-right: 10px;
+}
+.navbar-collapse .navbar-nav .nav-item {
+  padding-right: 12px;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  font-weight: normal;
+  color: #020202;
+}
+.navbar .navbar-collapse .header-btn {
+  background-color: #af71b0;
+  border-radius: 4px;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.27);
+  padding: 8px 10px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 30px;
+}
+/* Header End */
+
+/* Main Start */
+
+/* Section Hero Start */
+
+.container {
+  max-width: 781px !important;
+  margin: 0px auto;
+}
+.hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.hero .hero-wrap {
+  max-width: 102%;
+  margin: 0 auto;
+}
+.hero-content .hero-btns .header-btn {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.27);
+  padding: 8px 12px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #af71b0;
+  margin-right: 10px;
+}
+.hero .hero-wrap .hero-content {
+  border-left: 4px solid #000000;
+  padding-left: 18px;
+  margin-left: 20px;
+}
+.hero-wrap .hero-content p {
+  margin-bottom: 100px;
+}
+.hero .hero-img {
+  padding-left: 32px;
+}
+.hero .hero-bottom {
+  max-width: 750px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 11px 25px 0px rgb(0 0 0 / 22%);
+  margin-top: 117px;
+  padding: 39px;
+  margin-left: 5px;
+  align-items: center;
+  border-radius: 4px;
+}
+.hero .hero-bottom .input-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 8px;
+}
+.hero-bottom .input-btn input {
+  width: 50%;
+  padding: 13px 12px;
+  box-sizing: border-box;
+  border: 1px solid #cfcfcf;
+  margin-right: 15px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.hero-bottom .input-btn .header-btn {
+  background-color: #af71b0;
+  border-radius: 4px;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.27);
+  padding: 8px 12px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 30px;
+  border: none;
+}
+/* Section Hero End */
+
+/* Section Services Start */
+.services {
+  padding-bottom: 50px;
+  background-image: url(../images/img4.png);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: -102px 0px;
+}
+.services .services-top {
+  margin-bottom: 60px;
+}
+.services .services-top h2 {
+  text-align: center;
+}
+.services .services-top p {
+  text-align: center;
+  max-width: 411px;
+  margin: 0 auto;
+}
+.services .services-wrap {
+  margin-bottom: 50px;
+}
+.services .services-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services .services-content .service-img {
+  padding-bottom: 27px;
+}
+.services .services-content p {
+  text-align: center;
+}
+.services .services-content:hover {
+  background-image: url("../images/Clip.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 100%;
+  box-shadow: 0px 11px 25px 0px rgba(0, 0, 0, 0.22);
+}
+/* Section Services End */
+
+/* Section Team  Start*/
+.team {
+  background-color: #282828;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.team .team-heading {
+  max-width: 341px;
+  margin: 0px auto;
+  margin-bottom: 35px;
+}
+.team .team-heading h2 {
+  color: #ffffff;
+  text-align: center;
+}
+.team .requirements-specification .requirement {
+  width: 114px;
+  background-color: #af71b0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.requirements-specification .requirement h5 {
+  color: #ffffff;
+  text-align: center;
+  max-width: 74px;
+  margin: 0 auto;
+}
+.team .requirements-specification .icons-team {
+  width: 115px;
+  height: 115px;
+  background-color: #af71b0;
+  border: 10px solid #282828;
+  border-radius: 90px;
+  margin-top: -33px;
+  padding: 26px;
+}
+.team .requirements-specification .common-requirements {
+  width: 114px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.requirements-specification .common-requirements h5 {
+  color: #1c1c1c;
+  text-align: center;
+  max-width: 74px;
+  margin: 0 auto;
+}
+.team .requirements-specification .icons-team-common {
+  width: 115px;
+  height: 115px;
+  background-color: #ffffff;
+  border: 10px solid #282828;
+  border-radius: 90px;
+  margin-top: -33px;
+  padding: 26px;
+}
+.team .requirements-specification h6 {
+  font-size: 9px;
+  font-weight: bold;
+  color: #af71b0;
+  text-align: center;
+}
+.team .requirements-specification .common {
+  font-size: 9px;
+  font-weight: bold;
+  color: #a8a8a8;
+  text-align: center;
+}
+.team .requirements-specification .dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #af71b0;
+  border-radius: 90px;
+  margin-left: 47px;
+}
+.team .requirements-specification .small-dots {
+  width: 130px;
+  height: 20px;
+  margin-left: 52px;
+  margin-top: 7px;
+  border-left: 1px dotted #af71b0;
+  border-bottom: 1px dotted #af71b0;
+}
+.team .requirements-specification .dots-common {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #a8a8a8;
+  border-radius: 90px;
+  margin-left: 47px;
+}
+.team .requirements-specification .small-dots-common {
+  width: 130px;
+  height: 20px;
+  margin-left: 52px;
+  margin-top: 7px;
+  border-left: 1px dotted #a8a8a8;
+  border-bottom: 1px dotted #a8a8a8;
+}
+.team .requirements-specification .last:last-child {
+  border-bottom: none;
+}
+.team .team-btn {
+  padding-top: 220px;
+  margin-left: -20px;
+}
+.team .team-btn .header-btn {
+  background-color: #af71b0;
+  border-radius: 4px;
+  box-shadow: 0px 3px 9px 0px rgb(0 0 0 / 27%);
+  padding: 8px 14px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 30px;
+  border: none;
+  text-transform: uppercase;
+}
+.team .team-bottom-heading {
+  margin-top: 20px;
+}
+.team .team-bottom-heading h3 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 35px;
+  color: #f7f7f7;
+}
+.team .team-bottom-heading p {
+  font-size: 12px;
+  font-weight: normal;
+  color: #ffffff;
+}
+/* Section Team End */
+
+/* Section React Development Start */
+.react-development {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.react-development .react-development-heading {
+  max-width: 442px;
+  margin: 0 auto;
+}
+.react-development .react-development-heading h2 {
+  text-align: center;
+}
+.react-development .react-development-content {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 27px;
+  background-color: #ffffff;
+  box-shadow: 0px 11px 25px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+}
+.react-development .react-development-content p {
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+  line-height: 15px;
+}
+.react-development .react-development-content h6 {
+  font-size: 9px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+}
+.react-development .benefits-react {
+  max-width: 407px;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+.react-development .benefits-react h2 {
+  text-align: center;
+}
+.react-development .react-benefits-content {
+  padding: 8px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  min-height: 116px;
+}
+.react-development .react-benefits-content:hover {
+  box-shadow: 0px 11px 25px 0px rgba(0, 0, 0, 0.16);
+  color: #f6f6f6;
+  border: 1px solid #f6f6f6;
+}
+.react-development .react-benefits-content h4 {
+  color: #000000;
+}
+.react-development .react-benefits-content p {
+  color: #000000;
+  font-size: 12px;
+  line-height: 20px;
+}
+.react-development .react-action-btn {
+  max-width: 205px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.react-development .react-action-btn .header-btn {
+  background-color: #af71b0;
+  border-radius: 4px;
+  box-shadow: 0px 3px 9px 0px rgb(0 0 0 / 27%);
+  padding: 8px 14px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 30px;
+  border: none;
+  text-transform: uppercase;
+}
+/* Section React Development End */
+
+/* Section Hiring Start */
+.hiring-react-developer {
+  background-image: url("../images/orange-polygon-background-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.hiring-react-developer .hiring-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hiring-wrap .hiring-content h3 {
+  color: #ffffff;
+}
+.hiring-wrap .hiring-content p {
+  color: #ffffff;
+  font-size: 12px;
+}
+.hiring-react-developer .hiring-wrap .hiring-action-btn {
+  margin-bottom: 18px;
+}
+.hiring-wrap .hiring-action-btn .header-btn {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.27);
+  padding: 6px 18px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 30px;
+  border: none;
+  text-transform: uppercase;
+}
+/* Section Hiring End */
+
+/* Section Choose Us Start */
+.choose-us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.choose-us .choose-us-heading {
+  margin-bottom: 50px;
+}
+.choose-us .choose-us-heading h2 {
+  text-align: center;
+}
+.choose-us .choose-us-heading p {
+  max-width: 338px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  color: #000000;
+}
+.choose-us .choose-us-left {
+  padding-left: 120px;
+}
+.choose-us .choose-us-left h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 130px;
+  color: #b8b8b8;
+  border-bottom: 1px solid #b8b8b8;
+}
+.choose-us-left h5:first-child {
+  color: #4fc4cb;
+  border-bottom: 1px solid #4fc4cb;
+}
+.choose-us .choose-us-mid {
+  border-left: 2px solid #000000;
+  padding-bottom: 1px;
+  padding-left: 17px;
+}
+.choose-us .choose-us-mid h4 {
+  color: #000000;
+}
+.choose-us .choose-us-mid p {
+  font-size: 12px;
+  color: #000000;
+}
+/* Section Choose Us End */
+
+/* Section Other Services Start */
+.other-services {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.container-services {
+  max-width: 950px;
+  margin: 0 auto;
+}
+.other-services .other-services-content {
+  background-image: url("../images/Rectangle\ 75.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-radius: 5px;
+}
+.other-services .other-services-content h2 {
+  color: #fff;
+  text-align: center;
+}
+.other-services .other-services-content p {
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.other-services .other-services-content .other-services-btn {
+  max-width: 164px;
+  margin: 0 auto;
+}
+.other-services-content .other-services-btn .header-btn {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.27);
+  padding: 6px 18px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 30px;
+  border: none;
+  text-transform: uppercase;
+}
+.other-services .developers {
+  background-color: #ffffff;
+  box-shadow: 0px 6px 12px 0px rgb(0 0 0 / 16%);
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-height: 164px;
+}
+.other-services .developers .developers-type {
+  display: flex;
+  align-items: center;
+}
+.developers .developers-type h4 {
+  padding-left: 10px;
+  color: #000000;
+}
+.other-services .developers p {
+  font-size: 10px;
+  color: #000000;
+}
+/* Section Other Services End */
+/* Main End */
+
+/* Footer Start */
+.footer {
+  background-image: url("../images/Map\ bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+.footer .footer-upper-content h1 {
+  color: #ffffff;
+}
+.footer .footer-upper-content p {
+  color: #ffffff;
+  font-size: 10px;
+  max-width: 500px;
+  padding-right: 67px;
+}
+.footer-bottom {
+  margin-top: -120px;
+}
+.footer-bottom .form-left {
+  background-color: #ffffff;
+  box-shadow: 0px 6px 12px 0px rgb(0 0 0 / 16%);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer-bottom .form-left h4 {
+  color: #333333;
+  font-weight: 600;
+}
+.form-left form label {
+  color: #333333;
+  font-size: 10px;
+}
+.form-left form input {
+  color: #b1b1b1;
+  font-size: 10px;
+  border-radius: 3px;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+.form-left form textarea {
+  color: #b1b1b1;
+  font-size: 10px;
+  border-radius: 3px;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+.form-left form .header-btn {
+  background-color: #af71b0;
+  border-radius: 4px;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.27);
+  padding: 6px 18px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 30px;
+  border: none;
+  text-transform: uppercase;
+}
+.footer-bottom .form-right {
+  background-image: url("../images/Mask.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-left: -28px;
+  min-height: 408px;
+  border-radius: 3px;
+}
+.footer-bottom .form-right h4 {
+  color: #ffffff;
+  font-weight: 600;
+}
+.footer-bottom .form-right p {
+  color: #ffffff;
+  font-size: 8px;
+  margin-bottom: 5px;
+}
+.footer-link {
+  background-image: url("../images/Rectangle\ 84.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-link .footer-link-content p {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 15px;
+}
+/* Footer End */
